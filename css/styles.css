@@ -1,10 +1,12 @@
 /* This is a comment */
-*,  *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
 #the-one {
-  color: greenyellow
+  color: greenyellow;
 }
 html {
   box-sizing: border-box;
@@ -17,10 +19,8 @@ body {
   background-color: lightgray;
   max-width: 1000px;
   margin: 0 auto;
-  background-image:url("/img/work.jpg");
+  background-image: url("../img/work.jpg");
 }
-
-
 
 h1 {
   color: rgb(195, 0, 255);
@@ -32,11 +32,11 @@ h1 {
 }
 
 p {
- font-family: 'Courier New', Courier, monospace;
-font-weight: bold;
-letter-spacing: 0.2rem;
-word-spacing: 0.3rem;
-margin-left: 0.5rem; 
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.3rem;
+  margin-left: 0.5rem;
 }
 
 img {
@@ -74,7 +74,7 @@ a:active {
   padding: 30px;
   border: 20px solid greenyellow;
   margin: 30px;
-  box-sizing: content-box;  
+  box-sizing: content-box;
 }
 
 .standard-box {
@@ -82,5 +82,4 @@ a:active {
 }
 .border-box {
   padding: 10px 20px 30px 20px;
-  
 }
